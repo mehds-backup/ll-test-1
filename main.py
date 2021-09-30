@@ -4,10 +4,10 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def fizzbuzz(number: int, mod1: int, mod2: int) -> str:
+    def fizzbuzz(number: int) -> str:
     result = ""
-    if number % mod1 == 0:
+    if number % 3 == 0:
         result += "unga"
-    if number % mod2 == 0:
+    if number % 5 == 0:
         result += "bunga"
     return result
